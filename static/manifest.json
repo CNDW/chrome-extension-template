@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "CMX Field Editor",
+  "description": "This extension will enable the editing of CMX fields on page",
+  "version": "1.0",
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "devtools_page": "main.html",
+  "background": {
+    "scripts": [ "build/background.js" ],
+    "persistent": false
+  },
+  "permissions": [
+    "activeTab",
+    "file:///*",
+    "http://*/*",
+    "https://*/*"
+  ]
+}

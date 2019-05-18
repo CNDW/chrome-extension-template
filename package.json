@@ -5,11 +5,23 @@
   "author": "Kabaoum <tekman82@yahoo.com>",
   "license": "MIT",
   "scripts": {
-    "tsc": "tsc"
+    "tsc": "tsc",
+    "dev": "webpack-dev-server"
   },
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^1.9.0",
+    "@typescript-eslint/parser": "^1.9.0",
+    "eslint": "^5.16.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-node": "^9.0.1",
+    "eslint-plugin-promise": "^4.1.1",
+    "eslint-plugin-react": "^7.13.0",
+    "eslint-plugin-standard": "^4.0.0",
     "ts-loader": "^6.0.0",
     "typescript": "^3.4.5",
-    "webpack": "^4.31.0"
+    "webpack": "^4.31.0",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.4.1"
   }
 }
