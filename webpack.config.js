@@ -6,7 +6,8 @@ module.exports = {
     entry: {
         background: './src/background.ts',
         main: './src/main.ts',
-        popup: './src/popup.ts'
+        popup: './src/popup.ts',
+        inject: './src/inject.ts'
     },
     output: {
         path: path.resolve(__dirname, 'static/build')

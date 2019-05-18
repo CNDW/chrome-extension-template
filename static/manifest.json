@@ -12,6 +12,13 @@
     "scripts": [ "build/background.js" ],
     "persistent": false
   },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "run_at": "document_start",
+      "js": ["build/inject.js"]
+    }
+  ],
   "permissions": [
     "activeTab",
     "file:///*",
